@@ -60,6 +60,7 @@ public class Owner extends Person {
 	private String telephone;
 
 	private Integer age;
+	private Integer aa;
 
 	public Integer getAge() {
 		return age;
