@@ -37,6 +37,8 @@ import java.util.Map;
  * @author Michael Isvy
  */
 @Controller
+//PSA란 portable service abstraction으로 컨트롤러같은 애노테이션처럼
+	//사용자로 하여금 코드의 편의성을 제공해주는것
 class OwnerController {
 
 	private static final String VIEWS_OWNER_CREATE_OR_UPDATE_FORM = "owners/createOrUpdateOwnerForm";

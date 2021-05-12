@@ -14,8 +14,8 @@ import org.springframework.util.StopWatch;
 @Component //빈으로 등록되어야하기 때문에
 @Aspect //애노테이션을 읽어서 처리해주는 것
 public class LogAspect {
-	Logger logger = LoggerFactory.getLogger(LogAspect.class);
 
+	Logger logger = LoggerFactory.getLogger(LogAspect.class);
 
 	//이 어노테이션을 사용하면 joinPoint라는 파라미터를 받을 수 있음
 	//조인포인트는 해당 애노테이션이 붙어있는 메서드(@ExecutionTime)
@@ -35,5 +35,4 @@ public class LogAspect {
 
 		return proceed;
 	}
-
 }
